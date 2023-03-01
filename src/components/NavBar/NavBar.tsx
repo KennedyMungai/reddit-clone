@@ -9,11 +9,11 @@ const NavBar = (props: Props) =>
         <Flex
             bg={'white'}
             height='5rem'
-            padding='2rem 4rem'
+            padding='1rem 4rem'
         >
             <Flex>
-                <Image src='images/redditFace.svg' alt='Reddit Logo' />
-                <Image src='images/redditText.svg' alt='Reddit Text' />
+                <Image src='images/redditFace.svg' alt='Reddit Logo' height={'3rem'} />
+                <Image src='images/redditText.svg' alt='Reddit Text' height={'3rem'} />
             </Flex>
         </Flex>
     )
