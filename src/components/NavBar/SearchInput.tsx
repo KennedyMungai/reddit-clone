@@ -18,6 +18,12 @@ const SearchInput = () =>
                     type='text'
                     placeholder='Search Reddit'
                     _placeholder={{ color: 'gray.500' }}
+                    _hover={
+                        {
+                            bg: 'white',
+                            border: '0.01rem solid'
+                        }
+                    }
                 />
             </InputGroup>
         </Flex>
