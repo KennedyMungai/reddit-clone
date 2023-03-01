@@ -14,7 +14,7 @@ const SearchInput = () =>
                     pointerEvents='none'
                     children={<SearchIcon color='gray.300' />}
                 />
-                <Input type='tel' placeholder='Search Reddit' />
+                <Input type='text' placeholder='Search Reddit' />
             </InputGroup>
         </Flex>
     )
