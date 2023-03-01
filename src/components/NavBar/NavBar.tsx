@@ -6,7 +6,10 @@ type Props = {}
 const NavBar = (props: Props) =>
 {
     return (
-        <Flex bg={'white'}>
+        <Flex
+            bg={'white'}
+            border='0.1rem solid red'
+        >
             NavBar
         </Flex>
     )
