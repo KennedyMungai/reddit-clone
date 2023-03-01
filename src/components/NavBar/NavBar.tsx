@@ -8,7 +8,8 @@ const NavBar = (props: Props) =>
     return (
         <Flex
             bg={'white'}
-            border='0.1rem solid red'
+            height='10rem'
+            padding='2rem 4ren'
         >
             NavBar
         </Flex>
