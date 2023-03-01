@@ -7,7 +7,7 @@ const NavBar = (props: Props) =>
 {
     return (
         <Flex>
-
+            NavBar
         </Flex>
     )
 }
