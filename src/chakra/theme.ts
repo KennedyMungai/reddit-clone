@@ -6,4 +6,7 @@ export const theme = extendTheme({
             100: "#ff3c00"
         },
     },
+    fonts: {
+        body: 'Open Sans, sans-serif',
+    }
 })
