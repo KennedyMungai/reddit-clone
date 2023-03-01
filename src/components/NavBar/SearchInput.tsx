@@ -14,7 +14,11 @@ const SearchInput = () =>
                     pointerEvents='none'
                     children={<SearchIcon color='gray.300' />}
                 />
-                <Input type='text' placeholder='Search Reddit' />
+                <Input
+                    type='text'
+                    placeholder='Search Reddit'
+                    _placeholder={{ color: 'gray.500' }}
+                />
             </InputGroup>
         </Flex>
     )
