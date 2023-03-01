@@ -1,6 +1,5 @@
 import { SearchIcon } from '@chakra-ui/icons'
-import { Flex, Input, InputGroup, InputLeftElement, InputRightElement } from '@chakra-ui/react'
-import React from 'react'
+import { Flex, Input, InputGroup, InputLeftElement } from '@chakra-ui/react'
 
 type Props = {
 
