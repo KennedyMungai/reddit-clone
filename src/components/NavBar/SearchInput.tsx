@@ -8,7 +8,7 @@ type Props = {
 const SearchInput = () =>
 {
     return (
-        <Flex>
+        <Flex flexGrow={1}>
             <InputGroup>
                 <InputLeftElement
                     pointerEvents='none'
