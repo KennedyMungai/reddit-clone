@@ -11,7 +11,9 @@ const NavBar = (props: Props) =>
             height='5rem'
             padding='2rem 4rem'
         >
-            NavBar
+            <Flex>
+                Logos
+            </Flex>
         </Flex>
     )
 }
