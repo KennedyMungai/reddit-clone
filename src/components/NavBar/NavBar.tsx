@@ -13,7 +13,7 @@ const NavBar = (props: Props) =>
         >
             <Flex>
                 <Image src='images/redditFace.svg' alt='Reddit Logo' height={'3rem'} />
-                <Image src='images/redditText.svg' alt='Reddit Text' height={'3rem'} />
+                <Image src='images/redditText.svg' alt='Reddit Text' height={'4rem'} />
             </Flex>
         </Flex>
     )
