@@ -13,7 +13,11 @@ const NavBar = (props: Props) =>
         >
             <Flex align={'center'}>
                 <Image src='images/redditFace.svg' alt='Reddit Logo' height={'3rem'} />
-                <Image src='images/redditText.svg' alt='Reddit Text' height={'4rem'} />
+                <Image
+                    src='images/redditText.svg'
+                    alt='Reddit Text'
+                    height={'4rem'}
+                    display={{ base: 'none', md: 'unset' }} />
             </Flex>
         </Flex>
     )
