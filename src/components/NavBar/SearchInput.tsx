@@ -24,6 +24,12 @@ const SearchInput = () =>
                             border: '0.01rem solid'
                         }
                     }
+                    _focus={
+                        {
+                            outline: 'none',
+                            border: '0.01rem solid'
+                        }
+                    }
                 />
             </InputGroup>
         </Flex>
