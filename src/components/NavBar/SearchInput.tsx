@@ -13,9 +13,9 @@ const SearchInput = () =>
             <InputGroup>
                 <InputLeftElement
                     pointerEvents='none'
-                    children={<PhoneIcon color='gray.300' />}
+                    children={<SearchIcon color='gray.300' />}
                 />
-                <Input type='tel' placeholder='Phone number' />
+                <Input type='tel' placeholder='Search Posts' />
             </InputGroup>
         </Flex>
     )
