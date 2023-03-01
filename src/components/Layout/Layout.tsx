@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Layout: React.FC = () =>
+const Layout: React.FC = (children) =>
 {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <main>{children}</main>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
