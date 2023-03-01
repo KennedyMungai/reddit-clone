@@ -12,7 +12,7 @@ const SearchInput = () =>
             <InputGroup>
                 <InputLeftElement
                     pointerEvents='none'
-                    children={<SearchIcon color='gray.300' />}
+                    children={<SearchIcon color='gray.400' />}
                 />
                 <Input
                     type='text'
