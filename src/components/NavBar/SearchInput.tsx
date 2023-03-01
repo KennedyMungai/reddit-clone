@@ -30,6 +30,9 @@ const SearchInput = () =>
                             border: '0.01rem solid'
                         }
                     }
+
+                    height='3rem'
+                    bg={'gray.50'}
                 />
             </InputGroup>
         </Flex>
