@@ -1,6 +1,10 @@
 import React from 'react'
 
-const Layout = ({ children }) =>
+type LayoutProps = {
+
+}
+
+const Layout: React.FC<LayoutProps> = () =>
 {
     return (
         <>
