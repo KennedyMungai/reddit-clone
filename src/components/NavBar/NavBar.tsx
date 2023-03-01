@@ -19,6 +19,9 @@ const NavBar = (props: Props) =>
                     height={'4rem'}
                     display={{ base: 'none', md: 'unset' }} />
             </Flex>
+            {/* <Directory />
+            <SearchInput />
+            <RightContent /> */}
         </Flex>
     )
 }
