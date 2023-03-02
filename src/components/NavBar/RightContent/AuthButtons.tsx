@@ -7,7 +7,7 @@ const AuthButtons = () =>
         <>
             <Button
                 variant='outline'
-                height={'2.5rem'}
+                height={'3rem'}
                 display={{ base: 'none', sm: 'flex' }}
                 width={{ base: '70px', md: '110px' }}
                 mr={2}
@@ -15,7 +15,15 @@ const AuthButtons = () =>
             >
                 Log In
             </Button>
-            <Button>Sign Up</Button>
+            <Button
+                height={'3rem'}
+                display={{ base: 'none', sm: 'flex' }}
+                width={{ base: '70px', md: '110px' }}
+                mr={2}
+            // onClick={() => {}}
+            >
+                Sign Up
+            </Button>
         </>
     )
 }
