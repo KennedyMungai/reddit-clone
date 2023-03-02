@@ -15,7 +15,7 @@ const AuthModal = () =>
                     <ModalHeader>Modal Title</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
-                        <Lorem count={2} />
+                        Here is the modal body
                     </ModalBody>
 
                     <ModalFooter>
