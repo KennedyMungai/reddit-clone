@@ -5,7 +5,13 @@ const AuthButtons = () =>
 {
     return (
         <>
-            <Button variant='outline'>Log In</Button>
+            <Button
+                variant='outline'
+                height={'2.5rem'}
+                display={{ base: 'none', sm: 'flex' }}
+            >
+                Log In
+            </Button>
             <Button>Sign Up</Button>
         </>
     )
