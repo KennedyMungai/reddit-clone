@@ -18,7 +18,6 @@ const AuthModal = () =>
 
     return (
         <>
-            <Button onClick={onOpen}>Open Modal</Button>
             <Modal
                 isOpen={modalState.open}
                 onClose={handleClose}
