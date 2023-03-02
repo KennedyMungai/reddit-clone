@@ -1,3 +1,4 @@
+import { Flex } from '@chakra-ui/react'
 import React from 'react'
 
 type Props = {
@@ -7,7 +8,12 @@ type Props = {
 const RightContent = (props: Props) =>
 {
     return (
-        <div>RightContent</div>
+        <>
+            {/* <AuthModal /> */}
+            <Flex justify={'center'} align='center'>
+                {/* <AuthButtons /> */}
+            </Flex>
+        </>
     )
 }
 
