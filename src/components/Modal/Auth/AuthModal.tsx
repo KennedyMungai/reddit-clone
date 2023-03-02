@@ -7,7 +7,7 @@ const AuthModal = () =>
 
     return (
         <>
-            <Button>Open Modal</Button>
+            <Button onClick={onOpen}>Open Modal</Button>
             <Modal
                 isOpen={isOpen}
                 onClose={onClose}
