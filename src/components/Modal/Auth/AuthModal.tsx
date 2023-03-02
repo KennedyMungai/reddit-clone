@@ -24,7 +24,11 @@ const AuthModal = () =>
             >
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader>{modalState.view}</ModalHeader>
+                    <ModalHeader>
+                        {modalState.view === 'login' && 'Login'}
+                        {modalState.view === 'signup' && 'Sign Up'}
+                        {modalState.view === 'resetPassword' && 'Reset Password'}
+                    </ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
                         Here is the modal body
