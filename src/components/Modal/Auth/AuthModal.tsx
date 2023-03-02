@@ -30,8 +30,13 @@ const AuthModal = () =>
                         {modalState.view === 'resetPassword' && 'Reset Password'}
                     </ModalHeader>
                     <ModalCloseButton />
-                    <ModalBody>
-                        Here is the modal body
+                    <ModalBody
+                        display={'flex'}
+                        flexDirection='column'
+                        alignItems='center'
+                        justifyContent={'center'}
+                    >
+                        Some Sample Text
                     </ModalBody>
                 </ModalContent>
             </Modal>
