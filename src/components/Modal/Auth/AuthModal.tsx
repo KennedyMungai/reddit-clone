@@ -1,5 +1,5 @@
 import { authModalState } from '@/src/atoms/authModalAtom'
-import { Button, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react'
+import { Button, Flex, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react'
 import { useRecoilState } from 'recoil'
 
 const AuthModal = () =>
@@ -36,7 +36,9 @@ const AuthModal = () =>
                         alignItems='center'
                         justifyContent={'center'}
                     >
-                        Some Sample Text
+                        <Flex>
+
+                        </Flex>
                     </ModalBody>
                 </ModalContent>
             </Modal>
