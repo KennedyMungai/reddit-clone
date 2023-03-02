@@ -10,7 +10,7 @@ const AuthModal = () =>
         <>
             <Button onClick={onOpen}>Open Modal</Button>
             <Modal
-                isOpen={isOpen}
+                isOpen={modalState.open}
                 onClose={onClose}
             >
                 <ModalOverlay />
