@@ -11,7 +11,7 @@ const AuthButtons = () =>
                 display={{ base: 'none', sm: 'flex' }}
                 width={{ base: '70px', md: '110px' }}
                 mr={2}
-            // onClick={() => {}}
+                onClick={() => { }}
             >
                 Log In
             </Button>
@@ -20,7 +20,7 @@ const AuthButtons = () =>
                 display={{ base: 'none', sm: 'flex' }}
                 width={{ base: '70px', md: '110px' }}
                 mr={2}
-            // onClick={() => {}}
+                onClick={() => { }}
             >
                 Sign Up
             </Button>
