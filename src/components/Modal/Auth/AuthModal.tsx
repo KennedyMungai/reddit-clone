@@ -6,6 +6,11 @@ const AuthModal = () =>
 {
     const [modalState, setModalState] = useRecoilState(authModalState)
 
+    const handleClose = () => 
+    {
+
+    }
+
     return (
         <>
             <Button onClick={onOpen}>Open Modal</Button>
