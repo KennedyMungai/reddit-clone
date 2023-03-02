@@ -1,9 +1,12 @@
+import { Button } from '@chakra-ui/react'
 import React from 'react'
 
-const AuthButtons = (props: Props) =>
+const AuthButtons = () =>
 {
     return (
-        <div>AuthButtons</div>
+        <>
+            <Button></Button>
+        </>
     )
 }
 
