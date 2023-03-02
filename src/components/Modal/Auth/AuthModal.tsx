@@ -24,7 +24,7 @@ const AuthModal = () =>
             >
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader>Modal Title</ModalHeader>
+                    <ModalHeader>{modalState.view}</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody>
                         Here is the modal body
