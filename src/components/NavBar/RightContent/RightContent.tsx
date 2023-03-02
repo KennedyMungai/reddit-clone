@@ -1,7 +1,7 @@
 import React from 'react'
 
 type Props = {
-    user: any
+    // user: any
 }
 
 const RightContent = (props: Props) =>
