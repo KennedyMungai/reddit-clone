@@ -8,7 +8,12 @@ const AuthModal = () =>
 
     const handleClose = () => 
     {
-
+        setModalState((prev) => (
+            {
+                ...prev,
+                open: false
+            }
+        ))
     }
 
     return (
