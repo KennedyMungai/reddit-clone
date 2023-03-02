@@ -41,6 +41,7 @@ const AuthModal = () =>
                             alignItems='center'
                             justifyContent={'center'}
                             width='70%'
+                            border={'0.05rem solid red'}
                         >
 
                         </Flex>
