@@ -21,7 +21,7 @@ const AuthModal = () =>
             <Button onClick={onOpen}>Open Modal</Button>
             <Modal
                 isOpen={modalState.open}
-                onClose={onClose}
+                onClose={handleClose}
             >
                 <ModalOverlay />
                 <ModalContent>
