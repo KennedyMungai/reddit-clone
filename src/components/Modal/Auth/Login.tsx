@@ -12,8 +12,13 @@ const Login = (props: Props) =>
         }
     )
 
+    const submitHandler = (e) =>
+    {
+        e.preventDefault()
+    }
+
     return (
-        <form>
+        <form onSubmit={submitHandler}>
             <Input
                 name='email'
                 placeholder='email'
