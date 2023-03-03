@@ -1,5 +1,5 @@
 import { authModalState } from '@/src/atoms/authModalAtom'
-import { Button, Flex, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay } from '@chakra-ui/react'
+import { Flex, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay } from '@chakra-ui/react'
 import { useRecoilState } from 'recoil'
 import AuthInputs from './AuthInputs'
 
