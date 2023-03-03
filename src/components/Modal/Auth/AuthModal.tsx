@@ -45,6 +45,7 @@ const AuthModal = () =>
                         >
                             {/* <OAuthButtons /> */}
                             {/* <AuthInputs /> */}
+                            {/* <ResetPassword /> */}
                         </Flex>
                     </ModalBody>
                 </ModalContent>
