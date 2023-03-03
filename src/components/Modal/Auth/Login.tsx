@@ -31,6 +31,7 @@ const Login = (props: Props) =>
             <Button
                 variant={'solid'}
                 my={1}
+                type='submit'
             >
                 Log In
             </Button>
