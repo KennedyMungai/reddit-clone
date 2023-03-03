@@ -17,7 +17,7 @@ const Login = (props: Props) =>
         e.preventDefault()
     }
 
-    const changeHandler = () => 
+    const changeHandler = (e: FormEvent<HTMLInputElement>) => 
     {
 
     }
