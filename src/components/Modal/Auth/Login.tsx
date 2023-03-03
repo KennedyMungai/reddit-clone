@@ -36,6 +36,11 @@ const Login = (props: Props) =>
                 my={1}
                 onChange={changeHandler}
                 required
+                _placeholder={
+                    {
+                        color: 'gray.500'
+                    }
+                }
             />
             <Input
                 name='password'
@@ -44,6 +49,11 @@ const Login = (props: Props) =>
                 my={1}
                 onChange={changeHandler}
                 required
+                _placeholder={
+                    {
+                        color: 'gray.500'
+                    }
+                }
             />
             <Button
                 variant={'solid'}
