@@ -49,6 +49,7 @@ const Login = (props: Props) =>
                 type='submit'
                 width={'100%'}
                 height='3rem'
+                marginY={2}
             >
                 Log In
             </Button>
