@@ -32,7 +32,7 @@ const Login = (props: Props) =>
                 variant={'solid'}
                 my={1}
             >
-                Submit
+                Log In
             </Button>
         </form>
     )
