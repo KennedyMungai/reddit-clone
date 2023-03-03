@@ -47,6 +47,8 @@ const Login = (props: Props) =>
                 variant={'solid'}
                 my={1}
                 type='submit'
+                width={'100%'}
+                height='3rem'
             >
                 Log In
             </Button>
