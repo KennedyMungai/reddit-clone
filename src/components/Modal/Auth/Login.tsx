@@ -14,8 +14,8 @@ const Login = (props: Props) =>
 
     return (
         <form>
-            <Input />
-            <Input />
+            <Input name='email' placeholder='email' type={'email'} my='1rem' />
+            <Input name='password' placeholder='password' type={'password'} my='1rem' />
         </form>
     )
 }
