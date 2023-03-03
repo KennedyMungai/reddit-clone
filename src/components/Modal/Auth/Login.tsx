@@ -1,4 +1,4 @@
-import { Button, Input } from '@chakra-ui/react'
+import { Button, Flex, Input } from '@chakra-ui/react'
 import React, { ChangeEvent, FormEvent, useState } from 'react'
 
 type Props = {}
@@ -97,6 +97,12 @@ const Login = (props: Props) =>
             >
                 Log In
             </Button>
+            <Flex
+                fontSize='2rem'
+                justifyContent={'center'}
+            >
+
+            </Flex>
         </form>
     )
 }
