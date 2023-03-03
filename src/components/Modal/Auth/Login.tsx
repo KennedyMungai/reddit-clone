@@ -29,14 +29,14 @@ const Login = (props: Props) =>
                 placeholder='email'
                 type={'email'}
                 my={1}
-                onChange={() => { }}
+                onChange={changeHandler}
             />
             <Input
                 name='password'
                 placeholder='password'
                 type={'password'}
                 my={1}
-                onChange={() => { }}
+                onChange={changeHandler}
             />
             <Button
                 variant={'solid'}
