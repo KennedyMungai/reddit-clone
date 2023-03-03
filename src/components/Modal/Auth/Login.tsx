@@ -111,17 +111,17 @@ const Login = (props: Props) =>
                     color={'blue.500'}
                     fontWeight='bold'
                     cursor={'pointer'}
-                    onClick={(prev) => (
-                        {
+                    onClick={() =>
+                        setAuthModalState((prev) => ({
                             ...prev,
-                            view: 'signup'
-                        }
-                    )}
+                            view: "signup",
+                        }))
+                    }
                 >
                     SIGN UP
                 </Text>
             </Flex>
-        </form>
+        </form >
     )
 }
 
