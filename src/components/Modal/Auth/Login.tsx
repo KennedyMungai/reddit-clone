@@ -1,4 +1,4 @@
-import { Input } from '@chakra-ui/react'
+import { Button, Input } from '@chakra-ui/react'
 import React, { useState } from 'react'
 
 type Props = {}
@@ -28,6 +28,12 @@ const Login = (props: Props) =>
                 my={1}
                 onChange={() => { }}
             />
+            <Button
+                variant={'solid'}
+                my={1}
+            >
+                Submit
+            </Button>
         </form>
     )
 }
