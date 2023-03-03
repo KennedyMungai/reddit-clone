@@ -19,12 +19,14 @@ const Login = (props: Props) =>
                 placeholder='email'
                 type={'email'}
                 my={1}
+                onChange={() => { }}
             />
             <Input
                 name='password'
                 placeholder='password'
                 type={'password'}
                 my={1}
+                onChange={() => { }}
             />
         </form>
     )
