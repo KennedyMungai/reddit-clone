@@ -1,10 +1,14 @@
+import { authModalState } from '@/src/atoms/authModalAtom';
 import { Button, Flex, Input, Text } from '@chakra-ui/react'
 import React, { ChangeEvent, FormEvent, useState } from 'react'
+import { useRecoilState } from 'recoil';
 
 type Props = {}
 
 const Login = (props: Props) =>
 {
+    const setAuthModalState = useRecoilState(authModalState)
+
     const [loginForm, setLoginForm] = useState(
         {
             email: '',
