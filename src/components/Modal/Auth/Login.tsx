@@ -35,6 +35,7 @@ const Login = (props: Props) =>
                 type={'email'}
                 my={1}
                 onChange={changeHandler}
+                required
             />
             <Input
                 name='password'
@@ -42,6 +43,7 @@ const Login = (props: Props) =>
                 type={'password'}
                 my={1}
                 onChange={changeHandler}
+                required
             />
             <Button
                 variant={'solid'}
