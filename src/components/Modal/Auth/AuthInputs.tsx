@@ -12,7 +12,8 @@ const AuthInputs = (props: Props) =>
             width={'100%'}
             mt={4}
         >
-
+            {/* <Login /> */}
+            {/* <Signup /> */}
         </Flex>
     )
 }
