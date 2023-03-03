@@ -33,7 +33,7 @@ const Login = (props: Props) =>
                 name='email'
                 placeholder='email'
                 type={'email'}
-                my={1}
+                my={2}
                 onChange={changeHandler}
                 required
                 _placeholder={
@@ -62,7 +62,7 @@ const Login = (props: Props) =>
                 name='password'
                 placeholder='password'
                 type={'password'}
-                my={1}
+                my={2}
                 onChange={changeHandler}
                 required
                 _placeholder={
