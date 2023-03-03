@@ -1,5 +1,5 @@
 import { Button, Input } from '@chakra-ui/react'
-import React, { FormEventHandler, useState } from 'react'
+import React, { FormEvent, useState } from 'react'
 
 type Props = {}
 
@@ -12,7 +12,7 @@ const Login = (props: Props) =>
         }
     )
 
-    const submitHandler = (e: React.FormEvent<HTMLFormElement>) =>
+    const submitHandler = (e: FormEvent<HTMLFormElement>) =>
     {
         e.preventDefault()
     }
