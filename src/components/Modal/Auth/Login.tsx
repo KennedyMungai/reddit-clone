@@ -17,6 +17,11 @@ const Login = (props: Props) =>
         e.preventDefault()
     }
 
+    const changeHandler = () => 
+    {
+
+    }
+
     return (
         <form onSubmit={submitHandler}>
             <Input
