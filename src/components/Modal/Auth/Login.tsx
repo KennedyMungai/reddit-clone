@@ -111,7 +111,12 @@ const Login = (props: Props) =>
                     color={'blue.500'}
                     fontWeight='bold'
                     cursor={'pointer'}
-                    onClick={() => { }}
+                    onClick={(prev) => (
+                        {
+                            ...prev,
+                            view: 'signup'
+                        }
+                    )}
                 >
                     SIGN UP
                 </Text>
