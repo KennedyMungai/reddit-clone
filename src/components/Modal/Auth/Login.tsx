@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 type Props = {}
 
 const Login = (props: Props) =>
 {
+    const [loginForm, setLoginForm] = useState({ email: '', password: '' })
+
     return (
-        <div>Login</div>
+        <form>
+
+        </form>
     )
 }
 
