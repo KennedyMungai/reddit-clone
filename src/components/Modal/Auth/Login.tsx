@@ -19,7 +19,12 @@ const Login = (props: Props) =>
 
     const changeHandler = (e: ChangeEvent<HTMLInputElement>) => 
     {
-
+        setLoginForm(prev => (
+            {
+                ...prev,
+                [e.target.name]: e?.target.value
+            }
+        ))
     }
 
     return (
