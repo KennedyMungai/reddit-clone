@@ -25,7 +25,9 @@ const AuthModal = () =>
             >
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader>
+                    <ModalHeader
+                        textAlign={'center'}
+                    >
                         {modalState.view === 'login' && 'Login'}
                         {modalState.view === 'signup' && 'Sign Up'}
                         {modalState.view === 'resetPassword' && 'Reset Password'}
