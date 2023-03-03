@@ -38,6 +38,7 @@ const AuthModal = () =>
                         flexDirection='column'
                         alignItems='center'
                         justifyContent={'center'}
+                        paddingBottom='4'
                     >
                         <Flex
                             direction={'column'}
