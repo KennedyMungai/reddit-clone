@@ -103,7 +103,7 @@ const Login = (props: Props) =>
                 gap='1rem'
             >
                 <Text>New Here?</Text>
-                <Text color={'blue.500'} fontWeight='bold'>SIGN UP</Text>
+                <Text color={'blue.500'} fontWeight='bold' cursor={'pointer'}>SIGN UP</Text>
             </Flex>
         </form>
     )
