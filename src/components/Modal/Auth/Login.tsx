@@ -48,6 +48,14 @@ const Login = (props: Props) =>
                         borderColor: 'blue.500'
                     }
                 }
+                _focus={
+                    {
+                        outline: 'none',
+                        bg: 'white',
+                        border: '0.01rem solid',
+                        borderColor: 'blue.500'
+                    }
+                }
             />
             <Input
                 name='password'
@@ -63,6 +71,14 @@ const Login = (props: Props) =>
                 }
                 _hover={
                     {
+                        bg: 'white',
+                        border: '0.01rem solid',
+                        borderColor: 'blue.500'
+                    }
+                }
+                _focus={
+                    {
+                        outline: 'none',
                         bg: 'white',
                         border: '0.01rem solid',
                         borderColor: 'blue.500'
