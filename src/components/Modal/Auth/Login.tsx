@@ -98,8 +98,9 @@ const Login = (props: Props) =>
                 Log In
             </Button>
             <Flex
-                fontSize='2rem'
+                // fontSize='2rem'
                 justifyContent={'center'}
+                gap='1rem'
             >
                 <Text>New Here?</Text>
                 <Text>SIGN UP</Text>
