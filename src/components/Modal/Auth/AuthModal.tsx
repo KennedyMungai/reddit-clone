@@ -43,7 +43,7 @@ const AuthModal = () =>
                             width='70%'
                             border={'0.05rem solid red'}
                         >
-
+                            {/* <OAuthButtons /> */}
                         </Flex>
                     </ModalBody>
                 </ModalContent>
