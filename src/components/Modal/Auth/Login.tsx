@@ -41,6 +41,13 @@ const Login = (props: Props) =>
                         color: 'gray.500'
                     }
                 }
+                _hover={
+                    {
+                        bg: 'white',
+                        border: '0.01rem solid',
+                        borderColor: 'blue.500'
+                    }
+                }
             />
             <Input
                 name='password'
@@ -52,6 +59,13 @@ const Login = (props: Props) =>
                 _placeholder={
                     {
                         color: 'gray.500'
+                    }
+                }
+                _hover={
+                    {
+                        bg: 'white',
+                        border: '0.01rem solid',
+                        borderColor: 'blue.500'
                     }
                 }
             />
