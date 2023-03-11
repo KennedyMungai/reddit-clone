@@ -111,12 +111,7 @@ const Login = (props: Props) =>
                     color={'blue.500'}
                     fontWeight='bold'
                     cursor={'pointer'}
-                    onClick={() =>
-                        setAuthModalState((prev) => ({
-                            ...prev,
-                            view: "signup",
-                        }))
-                    }
+                    onClick={() => { }}
                 >
                     SIGN UP
                 </Text>
